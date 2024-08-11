@@ -1,0 +1,42 @@
+ /* Default light on color */
+ body.light-on {
+    background-color: white;
+    color: black;
+}
+
+/* Light off color */
+body.light-off {
+    background-color: black;
+    color: white;
+}
+
+/* Navbar styles for light-on state */
+.navbar-light-on {
+    background-color: #f8f9fa; /* Light background */
+    color: black; /* Black text */
+}
+
+/* Navbar styles for light-off state */
+.navbar-light-off {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+}
+
+.navbar-light-off .nav-link,
+.navbar-light-off .navbar-brand,
+.navbar-light-off .dropdown-item {
+    color: white !important;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Full height of the viewport */
+    text-align: center;
+}
